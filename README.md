@@ -8,7 +8,7 @@
 ### - everybody likes TV shows
 ### - good database with two different reviews and match ranking was available
 
-##Description of the source of data: Kaggle website - a subsidiary of Google LLC, is an online community of data scientists and machine learning practitioners. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges. To process that we will use NRCLex library that measures the emotional effect from a body of text.
+##Description of the source of data: Kaggle website - a subsidiary of Google LLC, is an online community of data scientists and machine learning practitioners. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges. To process that we will use NRCLex library that measures the emotional effect from a body of text. This gives frequencies of words with particular emotions in the database. 
 
 ##Questions they hope to answer with the data: 
 ### 1. Is NLP emotion classification able to predict TV shows ranking score?
