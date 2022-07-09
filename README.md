@@ -1,6 +1,7 @@
 # TV_shows_ML_Analysis
 
-## Topic: NLP emotion classification of the TV Shows reviews as an input data for machine learning algorithm to predict movie ranking score
+## Overview of Project
+NLP emotion classification of the TV Shows reviews as an input data for machine learning algorithm to predict movie ranking score
 
 
 ## Reason to select the topic: 
