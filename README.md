@@ -10,7 +10,7 @@ This project is a Natural Language Processing classification of the TV Shows rev
 * Good database with two different reviews with match ranking was available
 
 ## Description of communication
- Team members will be communicating through Slack and Zoom.
+ Protocols for communication will be communicating through SQLite and Jupyter.
 
 ## Description of the source of data: 
 
