@@ -20,3 +20,27 @@ Kaggle website - a subsidiary of Google LLC, is an online community of data scie
 * Is NLP emotion classification able to predict TV show ranking score?
 * Is it more useful for predicting critics or viewers score?
 * Do review sources differ in emotion classification percentage?
+
+## Description of the data exploration phase of the project (preliminary data preprocessing, feature engineering and feature selection, including their decision-making process)
+* Kaggle data was downloaded and imported into jupyter notebook.
+* Rows with no reviews or critic meta_score were deleted.
+* Dropping tv shows that have just one season. 
+* Dropping the reviews that are shorter than 300 characters. 
+* NRCLex library was used to create emotion words frequencies for each of the review. We exported reviews to a list and then used loop to apply NRCLex function to each element and append to a list of dictionaries. Then this list of dictionaries was transformed into pandas dataframe.
+* From new dataframe two columns that did not have any variation were dropped (anticipation and anticip). After, column with sum of the emotion words frequencies was added.
+* Emotion frequencies data frame was merged with original data frame.
+* Merged data frame was split into predicted value = y = critic meta score; and input values for the model = X = frequencies of emotions words and file with optional input features.
+* All files were saved as csv files and as such uploaded to SqlLite database.
+
+## Description of the analysis phase of the project
+
+* Compare emotion frequencies between different tv shows reviews metrics. This should give us an overview of the data we obtained and if it has a potential for good prediction. 
+* Creating regression model to predict tv show critics score based on emotion words frequencies with artificial neural networks and linear regression. This should give us answer how each of the emotion frequency affects the meta critic score and if this effect is statistically significant (if linear). 
+* Then, neural artifical network model will be created to see if more complex relationships between emotion frequencies exist and we could use them to predict the meta critic score. 
+* Also, support vector machine model will be created, which should be faster to train than ANN but should give similar accuracy.
+
+## Description of the tool(s) that will be used to create final dashboard, Description of interactive element(s)
+
+* Our final dashboard will be made with Tableu.
+* Interactive element: Table with tv shows reviews that can be filtered and histogram with frequencies of the emotions will shown for it, PCA plot that shows the name of the tv show when cursor is placed on it. 
+
