@@ -44,6 +44,5 @@ Kaggle website - a subsidiary of Google LLC, is an online community of data scie
 * Our final dashboard will be made with Tableu.
 * Interactive element: Table with tv shows reviews that can be filtered and histogram with frequencies of the emotions will shown for it, PCA plot that shows the name of the tv show when cursor is placed on it. 
 
-[Link to slide show with the project description)
-(https://docs.google.com/presentation/d/1-XUbWYdJ5RLEgE5cJGqF8EMfjUlFZJgu3gpEb6eA8Jo/edit#slide=id.g13b592af808_0_18)
+checkout: [Link to slide show with the project description](https://docs.google.com/presentation/d/1-XUbWYdJ5RLEgE5cJGqF8EMfjUlFZJgu3gpEb6eA8Jo/edit#slide=id.g13b592af808_0_18)
 
