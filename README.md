@@ -9,9 +9,6 @@ This project is a Natural Language Processing classification of the TV Shows rev
 * Everybody likes TV shows
 * Good database with two different reviews with match ranking was available
 
-## Description of communication
- Protocols for communication will be communicating through SQLite and Jupyter.
-
 ## Description of the source of data: 
 
 Kaggle website - a subsidiary of Google LLC, is an online community of data scientists and machine learning practitioners. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges. To process that we will use NRCLex library that measures the emotional effect from a body of text. This gives frequencies of words with particular emotions in the database. We will use this as a input for neural network model to predict meta_score of the tv show.
