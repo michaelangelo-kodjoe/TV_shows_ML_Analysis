@@ -43,3 +43,7 @@ Kaggle website - a subsidiary of Google LLC, is an online community of data scie
 
 checkout: [Link to slide show with the project description](https://docs.google.com/presentation/d/1-XUbWYdJ5RLEgE5cJGqF8EMfjUlFZJgu3gpEb6eA8Jo/edit#slide=id.g13b592af808_0_18)
 
+ ## Data Visualisation: 
+ An initial visualisation of the TV Show Analysis 
+ [Click here for Dashboard Visualization](https://public.tableau.com/app/profile/michaelangelo.kodjoe/viz/TVShowsAnalysis/TVShowAnalysis)
+
