@@ -14,9 +14,10 @@ This project is a Natural Language Processing classification of the TV Shows rev
 Kaggle website - a subsidiary of Google LLC, is an online community of data scientists and machine learning practitioners. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges. To process that we will use NRCLex library that measures the emotional effect from a body of text. This gives frequencies of words with particular emotions in the database. We will use this as a input for neural network model to predict meta_score of the tv show.
 
 ## Questions to to answer with the data: 
-* Is NLP emotion classification able to predict TV show ranking score?
-* Is it more useful for predicting critics or viewers score?
-* Do review sources differ in emotion classification percentage?
+* Is NLP emotion classification able to predict TV shows ranking score?
+* Which emotions are better predictors of meta score?
+* Which algorithm is better to predict meta score with?
+
 
 ## Description of the data exploration phase of the project (preliminary data preprocessing, feature engineering and feature selection, including their decision-making process)
 * Kaggle data was downloaded and imported into jupyter notebook.
@@ -31,15 +32,16 @@ Kaggle website - a subsidiary of Google LLC, is an online community of data scie
 
 ## Description of the analysis phase of the project
 
-* Compare emotion frequencies between different tv shows reviews metrics. This should give us an overview of the data we obtained and if it has a potential for good prediction. 
-* Creating regression model to predict tv show critics score based on emotion words frequencies with artificial neural networks and linear regression. This should give us answer how each of the emotion frequency affects the meta critic score and if this effect is statistically significant (if linear). 
-* Then, neural artifical network model will be created to see if more complex relationships between emotion frequencies exist and we could use them to predict the meta critic score. 
-* Also, support vector machine model will be created, which should be faster to train than ANN but should give similar accuracy.
+* Compare emotion frequencies between different tv shows meta score. This should give us an overview of the data we obtained and if it has a potential for good prediction. 
+* Creating regression model to predict tv show critics score based on emotion words frequencies with artificial neural networks and linear regression. This should give us answer how each of the emotion frequency affects the meta critic score. 
+* Then, neural artifical network model was created to see if more complex relationships between emotion frequencies exist and we could use them to predict the meta critic score. 
+* Also, random forest model was created, which should be faster to train than ANN but should give similar accuracy.
+
 
 ## Description of the tool(s) that will be used to create final dashboard, Description of interactive element(s)
 
-* Our final dashboard will be made with Tableu.
-* Interactive element: Table with tv shows reviews that can be filtered and histogram with frequencies of the emotions will shown for it, PCA plot that shows the name of the tv show when cursor is placed on it. 
+* Our final dashboard is made with Tableu.
+* Interactive element: PCA plot that shows the name of the tv show when cursor is placed on it. 
 
 checkout: [Link to slide show with the project description](https://docs.google.com/presentation/d/1-XUbWYdJ5RLEgE5cJGqF8EMfjUlFZJgu3gpEb6eA8Jo/edit#slide=id.g13b592af808_0_18)
 
